@@ -10,7 +10,9 @@ Usage
 
 $logger  = new Monolog\Logger("Example");
 
-$rayGunHandler = new \MeadSteve\RayGunolog\RayGunHandler(new \Raygun4php\RaygunClient("YOUR_RAYGUN_KEY"));
+$rayGunHandler = new \MeadSteve\RayGunolog\RayGunHandler(
+    new \Raygun4php\RaygunClient("YOUR_RAYGUN_KEY")
+);
 
 $logger->pushHandler($rayGunHandler);
 
