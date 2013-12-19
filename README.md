@@ -3,6 +3,16 @@ RayGunolog
 
 Monolog Handler connection to raygun.io.
 
+Installation
+==========
+Via Composer:
+Add the following to your composer.json
+```js
+  "require": {
+        "mead-steve/ray-gunolog": "dev-master"
+    }
+```
+
 Usage
 ==========
 
