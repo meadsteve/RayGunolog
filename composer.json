@@ -1,5 +1,5 @@
 {
-    "name": "meadsteve/ray-gunolog",
+    "name": "mead-steve/ray-gunolog",
     "description": "An abstract handler for monolog that connects to raygun.io",
     "keywords": ["raygun", "monolog", "logging", "error"],
     "minimum-stability": "stable",
