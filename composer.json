@@ -1,0 +1,22 @@
+{
+    "name": "meadsteve/ray-gunolog",
+    "description": "An abstract handler for monolog that connects to raygun.io",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve Brazier",
+            "email": "meadsteve@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-0": {"MeadSteve\\": "src/"}
+    },
+
+    "require-dev": {
+        "monolog/monolog": "1.*",
+        "mindscape/raygun4php": "1.*",
+        "phpspec/prophecy-phpunit": "1.*"
+    }
+}
