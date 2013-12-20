@@ -1,10 +1,17 @@
 RayGunolog
 ==========
-
 Monolog Handler connection to raygun.io.
 
+Build status
+------------
+
+| branch | status |
+| ------ | ------ |
+| master | [![Build Status](https://travis-ci.org/meadsteve/RayGunolog.png?branch=master)](https://travis-ci.org/meadsteve/RayGunolog) |
+
+
 Installation
-==========
+------------
 Via Composer:
 Add the following to your composer.json
 ```js
@@ -14,7 +21,7 @@ Add the following to your composer.json
 ```
 
 Usage
-==========
+------------
 
 ```php
 
