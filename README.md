@@ -16,7 +16,7 @@ Via Composer:
 Add the following to your composer.json
 ```js
   "require": {
-        "mead-steve/ray-gunolog": "dev-master"
+        "mead-steve/ray-gunolog": "^1.0.0"
     }
 ```
 
